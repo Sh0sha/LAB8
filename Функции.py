@@ -1,14 +1,17 @@
-def insertInToMid(lst, num, str):
-    """
-    Функция для вставки строки в середину списка.
+
+"""
+СКРЫТО
+def insertInToMid(lst,  str):
+
+  Функция для вставки строки в середину списка.
     
      lst -- список строк
     str -- строка для вставки
-    """
-    mid_index = len(lst) // 2
-    lst.insert(mid_index, num, str)    "добавил нам"
-    return lst
 
+    mid_index = len(lst) // 2
+    lst.insert(mid_index, str)
+    return lst
+"""
 def insertAtPosition(lst, position, num, str):
     """
     Функция для вставки строки в указанную позицию списка
